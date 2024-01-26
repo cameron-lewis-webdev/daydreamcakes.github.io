@@ -1,0 +1,44 @@
+.gallery-page {
+    border: 3px dotted black;
+    width: 70%;
+    margin: 20px auto;
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+        padding: 10px 0;
+
+        .grid-item {
+            width: 90%;
+            justify-self: center;
+            align-self: center;
+            text-align: center;
+            margin: 10px;            
+
+            img {
+                width: 200px;
+                height: 200px;
+                border: 2px solid white;
+                border-radius: 50%;
+                transition-duration: 0.5s;
+            }
+
+            h3 {
+                padding: 10px 0;
+                width: 100%;
+            }
+        }
+
+        .grid-item:hover {
+            img {
+                border: 2px solid lightcoral;
+                transform: scale(1.05);
+            }
+
+            h3 {
+                color: lightcoral;
+            }
+        }
+    }
+}

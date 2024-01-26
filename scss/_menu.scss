@@ -1,0 +1,88 @@
+.menu-page {
+    width: 80%;
+    margin: 20px auto;
+    border: 3px dashed black;
+
+    h2 {
+        text-align: center;
+        margin: 20px auto;
+        font-size: 2.5rem;
+    }
+
+    .category.cake-flavors {
+
+        .category-title {
+            font-size: 1.8rem;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 12px;
+            width: 40%;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+
+        .cake-flavors {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            font-size: 1.5rem;
+        }
+        
+
+        .flavor {
+            justify-self: center;
+            font-size: 1.4rem;
+        }
+    }
+
+    .fnf-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .category.fillings, .category.frostings {
+            justify-self: center;
+            text-align: center;
+            margin-top: 30px;
+
+            .category-title.fillings, .category-title.frostings {
+                border: 2px solid black;
+                border-radius: 12px;
+                padding: 2px 0;
+                font-size: 1.8rem;
+                margin-bottom: 10px;
+                width: 70%;
+                margin: 0 auto;
+            }
+        }
+
+        .category.fillings {
+            .filling {
+                font-size: 1.4rem;
+            }
+        }
+
+        .category.frostings {
+            .frosting {
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    .category.cnc-bites {
+        width: 90%;
+        margin: 40px auto;
+        text-align: center;
+
+        .category-title.cnc-bites {
+            border: 2px solid black;
+            border-radius: 12px;
+            padding: 2px 0;
+            font-size: 1.8rem;
+            margin: 20px auto;
+            width: 70%;
+        }
+
+        p {
+            font-size: 1.4rem;
+        }
+    }
+}

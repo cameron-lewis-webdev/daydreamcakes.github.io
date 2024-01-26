@@ -1,0 +1,33 @@
+.faqs-page {
+    width: 80%;
+    border: 3px solid black;
+    border-style: dotted;
+    margin: 30px auto;
+    padding: 40px 15px;
+
+    .faq-title {
+        text-align: center;
+        width: 80%;
+        border: 3px solid black;
+        border-radius: 12px;
+        padding: 5px 0;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .accordion {
+
+        .accordion-item {
+            border: 2px solid black;
+            margin-bottom: 20px;
+
+            .accordion-header {
+                
+                .accordion-button {
+                    font-size: 1.2rem;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+}
